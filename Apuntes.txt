@@ -1,0 +1,43 @@
+
+---------BACK END-------------------
+
+Para crear un Node web server, vamos a ocupar Express.js:
+
+Instalar Express:
+npm install express
+
+Para crear una conexion a base de datos, vamos a ocupar Mongo from Node:
+
+Instalar Mongo:
+npm i mongodb
+
+
+---------FRONT END------------------
+Instalar React:
+npm i react react-dom
+
+
+--------------------------------------
+
+Instalar WebPack:
+npm install -D webpack webpack-cli
+
+Instalar Babel:
+npm install -D babel-loader @babel/cli @babel/core @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties
+
+Instalar nodemon: (Monitorea nuestros archivos y autoresetea node cuando haceos un cambio)
+npm install -D nodemon
+
+Instalar ESlint
+npm install -D eslint babel-eslint eslint-plugin-react
+
+Instalar proptypes
+npm i prop-types
+
+
+
+
+--------------------------------------
+Si quiero instalar una version extacta puedo:
+npm i express@4.16.4
+npm i react@16.7.0
